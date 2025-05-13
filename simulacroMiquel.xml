@@ -1,0 +1,65 @@
+<!--Menu de lunes a viernes por 13 euros con pan vino o café incluido-->
+<?xml version ="1.0" encoding="utf-8"?>
+<RSS version ="2.0" >
+<menus> <!-- menus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+             xsi:noNamespaceSchemaLocation="simulacro.xsd" >
+          <channel>
+            <title>canal de cocina</title>
+            <link >http:/www.cocina.com</link>
+            <description>ultimas noticias culinarias</description>
+            <language>español-es</language>
+            <item>
+                <title>Nuevo menu semanal</title>
+                <link>http:/www.cocina.com</link>
+                <description>nuevos platos semanales</description>
+                <pubDate>sunday 09 mayo 2025 12.00.00</pubDate>
+            </item>
+            
+    
+             <dia nombre="lunes">
+        <primerplato>paella</primerplato>
+        <segundoplato>ternera</segundoplato>
+        <extras>
+            <pan>true</pan>
+            <bebida>vino o café</bebida>
+
+        </extras>
+        <precio>13 euros</precio>
+
+    </dia>
+    <dia nombre="martes">
+        <primerplato>paella</primerplato>
+        <segundoplato>ternera</segundoplato>
+        <extras>
+            <pan>true</pan>
+            <bebida>vino o café</bebida>
+
+        </extras>
+        <precio>13 euros</precio>
+        
+    </dia>
+    <dia nombre="miercoles">
+        <primerplato>paella</primerplato>
+        <segundoplato>ternera</segundoplato>
+        <extras>
+            <pan>true</pan>
+            <bebida>vino o café</bebida>
+
+        </extras>
+        <precio>13 euros</precio>
+        
+    </dia>
+    <dia nombre="jueves">
+        <primerplato>paella</primerplato>
+        <segundoplato>ternera</segundoplato>
+        <extras>
+            <pan>true</pan>
+            <bebida>vino o café</bebida>
+
+        </extras>
+        <precio>13 euros</precio>
+        
+    </dia>
+    </channel> 
+    </RSS>
+</menus>
